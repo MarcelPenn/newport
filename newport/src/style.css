@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+html {
+  overflow-x: hidden;
+  background-color: black;
+}
+
+
+
+.margin {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+
+.spanA {
+  color: white;
+}
+
+.span0 {
+ font-weight: bold;
+}
+
+.span1 {
+  color: #c94c4c;
+}
+
+.span2 {
+  color: #eea29a;
+}
+
+.span3 {
+  color: #b1cbbb;
+}
+
+.span4 {
+  color: #feb236;
+}
+
+.span5 {
+  color: #405d27;
+}
+
+.span6 {
+  color: #eca1a6;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  font-family: Lobster;
+  color:  #c94c4c;
+}
+
+li {
+  margin-right: 40px;
+  font-size: 22px
+}
+
+.spanLink {
+  color: white;
+  font-family: Lobster;
+  
+}
+
+.hover1:hover {
+  color: #c94c4c;
+}
+
+.hover2:hover {
+  color: #b1cbbb;
+}
+
+.hover3:hover {
+  color: #feb236;
+}
+
+
+li {
+  margin-right: 40px;
+}
+
+@media (min-width: 992px) {
+    .About {
+        margin-left: 100%;
+        
+    }
+}
+
+@media (max-width: 991px) {
+  .About {
+    margin-bottom: -4%;
+  }
+}
+
+#home {
+  font-size: 30px;
+  font-family: Raleway;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+.banner img {
+  width: 100%;
+  overflow-x: hidden;
+}
+.heading {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-family: Lobster;
+  color: white;
+}
+img {
+  height: 25em;
+  width: 100%;
+}
+
+
+.outline {
+	text-shadow:
+		-1px -1px 0 #777,
+		1px -1px 0 #777,
+		-1px 1px 0 #777,
+		1px 1px 0 #777;
+}
+
+p {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Nanum Gothic";
+}
+.port {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Nanum Gothic";
+}
+.clear {
+    position: absolute !important;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(52, 58, 64, 0.0) !important;
+}
+.navbar{
+  position: fixed;
+  top:0;
+  left: 0;
+}
+
+.element {
+  margin-top: 20px;
+}
+
+
+
+.container {
+  
+  display: flex;
+  
+  
+}
+
+
+.img1 {
+  width: 75px;
+  height: 75px;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+.contactPage{
+  text-align: center;
+}
+
+footer {
+  background-color: grey;
+  height: 100px;
+  border-top: 5px solid black;
+  text-align: center;
+  font-family: Raleway;
+  width: 100%;
+  padding-top: 3%;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h4 {
+  font-family: "Raleway";
+  padding-top: 10px;
+ 
+}
+
+.outline {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.logos {
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+  margin-top: 40px;   
+  margin-bottom: 80px;
+
+}
+
+.center {
+  text-align: center;
+}
+
+#grad {
+  background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+
+.port {
+  flex: 2;
+}
